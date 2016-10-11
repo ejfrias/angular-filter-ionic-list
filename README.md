@@ -1,2 +1,2 @@
 # angular-filter-ionic-list
-Custom Angular filter for Ionic list
+A custom Angular filter for filtering Ionic list using a search box. Made for Angular 1.
