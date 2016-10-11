@@ -33,6 +33,7 @@ angular.module('app.controllers', ['ionic', 'angular-filter-ionic-list'])
 
 After that, just check out `controllers.js` and `templates/list.html` on how the list filter was implemented. The steps are straight forward so it should be easy to understand.
 
+<br />
 **Just to note**, be familiar with Ionic's `collection-repeat` directive and Angularjs' `filter` component.
 
 
