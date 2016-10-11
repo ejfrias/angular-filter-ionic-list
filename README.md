@@ -2,21 +2,24 @@
 A custom Angular filter for filtering Ionic list using a search box. Made for Angular 1.
 
 
+<br />
+### Requirements
+AngularJs and Ionic
+
+
+<br />
 ### Demo
 [http://ejfrias.com/playground/angular-filter-ionic-list](http://ejfrias.com/playground/angular-filter-ionic-list)
 
 
-### Requirement
-Angular v1
-Ionic v1
-
-
+<br />
 ## How to see it in action in your local server
 1. Start an ionic app `ionic start app blank`
 2. Copy `www` folder from this repo and replace the one inside the ionic app that you've just created
 3. And voila! Open a browser, navigate to your app and you should see it work
 
 
+<br />
 ## How to use
 First, add a reference of `angular-filter-ionic-list.js` to your `index.html`
 ```
@@ -33,5 +36,6 @@ After that, just check out `controllers.js` and `templates/list.html` on how the
 **Just to note**, be familiar with Ionic's `collection-repeat` directive and Angularjs' `filter` component.
 
 
+<br />
 ### Contributing
 Since this filter was made to be as simple as possible, requesting and/or proposing a feature would not be entertained. However, submitting bugs/issues are always welcome.
