@@ -1,0 +1,22 @@
+<ion-view view-title="People">
+	<ion-header-bar class="bar-light bar-subheader item-input-inset">
+			<div class="item-input-wrapper">
+				<i class="icon ion-ios-search-strong light-grey"></i>
+				<input type="search" placeholder="Search..." ng-model="search" />
+				<button ng-if="search.length" class="button button-icon ion-ios-close input-button" ng-click="clearSearch()"></button>
+			</div>
+    </ion-header-bar>
+	<ion-content class="">
+		<div class="list">
+			<div collection-repeat="item in list | search:search track by $index" item-height="getItemHeight(item, $index)">
+				<div class="item item-divider" ng-if="item.isDivider">{{ item.name }}</div>
+
+				<a ng-if="!item.isDivider" class="item item-avatar" href="#/item/{{ item.id }}">
+					<img ng-src="{{ item.photo }}" />
+					<h2>{{ item.name }}</h2>
+					<p>{{ item.company }}</p>
+				</a>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
